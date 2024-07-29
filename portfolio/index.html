@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comapatible" content="IE-edge" >
+        <meta name="viewpoint" content="width-device-width, initial-scale-1.0">
+        <title>Portfolio Website - Vinay's</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/130377bfff.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span>Vinay Kumar</span> <br> From AndhraPradesh</h1>
+                </div>
+            </div>
+        </div>
+<!-- About -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/shortimage.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me </h1>
+                        <p>My Name Vinay kumar, I'm A B.com computer Application Graduate. Native Kadapa,AndhraPradesh, Currently staying in Banglore I,m Well Trained in Fullstack With Python From Besant Technologies,Marathahalli Branch. I,m Good at Creating Web Pages and SQL Server.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Full Stack</span> <br> Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span> <br> Web App Development</li>
+                                <li><span>Python Development</span> <br> Building Android/ios App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span> <br> Python Fullstack Training at Besant Technologies</li>
+                                <li><span>2022 - 2023</span> <br> Internship as captive IT solution Pvt.Ltd</li>
+                                <!-- <li><span>2021 - 2022</span> <br> GATE Coaching at ACE Academy Hyderabad</li> -->
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span> <br> Emeralds degree College,Tirupathi</li>
+                                <li><span>2020</span> <br> Sri Chaitanya jounior College,Tirupathi</li>
+                                <li><span>2018</span> <br> Victory High School,Railway koduru</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- -------Services----------- -->
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Here i developed a Web Page, which is helpfull for many users who are want to shop in online, this web page is helpfull both customers and the owner who is giving service to their customers Happiely.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Fullstack Design</h2>
+                <p>Here I Utilized both the Fontend and as well as Backend Work to get Efficient Results for the Future Use of The Customers who are going to utilising our services,Here Its Automatically Upgraded to Latest Versions</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Here i Developed app, Which is helpfull to communicate easily with others within less time, it can record what is others saying and give back response in our selected Native launguage effectively</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Portfolio------------ -->
+     <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/socialmedia.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app Connects you the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/music1.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app Connects you the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/onlineshoping.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app Connects you the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-- ----------Contact------ -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> vinaykumarvullikanti@gmail.com</p> <br>
+                    <p><i class="fa-solid fa-phone-volume"></i> 9390311417</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/k.jashucherry"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/_rolex_here_26?igsh=bDQ0a3JrNmxlbWJr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vinay-kumar-vullikanti-116352212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/vinayresume word.docx" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Vinay. Made With <i class="fa-solid fa-heart"></i> By Besant Technologies</p>
+        </div>
+      </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0"
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+        </script>
+        <script>
+            const scriptURL = "https://script.google.com/macros/s/AKfycbypnvulm-cuLKSfgWXmDd_kckdRzJgPdGC9UpWnLXrLxzjz2RDGrse-mitMmvfeIRDR/exec"
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent Succesfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
